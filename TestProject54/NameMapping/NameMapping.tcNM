@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{475225C7-CEB3-4F7C-BAE5-4CCB5E1F9DDD}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{43D28F58-910B-4A81-89E5-F93188DCEA57}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{18FAC5C1-30C0-4BE1-B167-3100E62E599B}">
+								<Image FileName="1705415923" Left="-9" Top="-9" Right="1929" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSoftwareTestingMonitoringDev" Key="{1B2E3E51-40A7-463B-848C-27FEB2270179}">
+								<Image FileName="1705415923" Left="0" Top="128" Right="1920" Bottom="1030" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{140793AF-1B08-466C-A3CA-DC0386D1B9EC}">
+										<Image FileName="1705415923" Left="0" Top="128" Right="1899" Bottom="6976" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;/&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerPLtHeader" Key="{79D56135-1931-4E4A-88D6-AF89A8EC1DC2}">
+										<Image FileName="1705415923" Left="0" Top="128" Right="0" Bottom="128" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_Header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeResources" Key="{3B07E975-95D7-4B2E-8E50-4A767C2436CD}">
+										<Image FileName="1705415923" Left="1030" Top="128" Right="1219" Bottom="209" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;How to Use ChatGPT in Your Automated Tests&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkResources" Key="{250EC9EF-75D7-4BFB-8B96-7BF128EB8FAF}">
+										<Image FileName="1705415923" Left="1064" Top="128" Right="1184" Bottom="209" />
+										<TypeInfo Item0="{66B20F51-4AA5-40EE-9DBE-08E2878CE8C0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Resources&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAcademy" Key="{CFC9B6D4-C881-4132-8F50-20D36D3693D3}">
+										<Image FileName="1477369889" Left="1291" Top="314" Right="1596" Bottom="389" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Academy&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[2]/a[contains(@class, &apos;dropdown-mega-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//div[2]/div[2]/div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAcademy" Key="{A582D52C-EE44-4615-B76F-A7B03871D973}">
+										<Image FileName="1477369889" Left="1328" Top="314" Right="1596" Bottom="389" />
+										<TypeInfo Item0="{66B20F51-4AA5-40EE-9DBE-08E2878CE8C0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Academy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[2]/a/span[contains(@class, &apos;item-name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;academy&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[2]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{43D28F58-910B-4A81-89E5-F93188DCEA57}">
+			<Child Name="BrowserWindow" Owner="{18FAC5C1-30C0-4BE1-B167-3100E62E599B}" />
+			<Child Name="pageSoftwareTestingMonitoringDev" Owner="{1B2E3E51-40A7-463B-848C-27FEB2270179}">
+				<Child Name="form" Owner="{140793AF-1B08-466C-A3CA-DC0386D1B9EC}">
+					<Child Name="headerPLtHeader" Owner="{79D56135-1931-4E4A-88D6-AF89A8EC1DC2}">
+						<Child Name="textnodeResources" Owner="{3B07E975-95D7-4B2E-8E50-4A767C2436CD}">
+							<Child Name="linkResources" Owner="{250EC9EF-75D7-4BFB-8B96-7BF128EB8FAF}" />
+						</Child>
+						<Child Name="linkAcademy" Owner="{CFC9B6D4-C881-4132-8F50-20D36D3693D3}">
+							<Child Name="textnodeAcademy" Owner="{A582D52C-EE44-4615-B76F-A7B03871D973}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
